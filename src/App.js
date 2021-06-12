@@ -4,6 +4,7 @@ import {makeStyles} from '@material-ui/core/styles'
 import Options from './components/Options'
 import VideoPlayer from './components/VideoPlayer'
 import Notification from './components/Notification'
+import Footer from './components/footer'
 import {
   ThemeProvider,
   createGlobalStyle
@@ -66,6 +67,7 @@ const App = ()=>{
       <ThemeProvider theme={theme}>
       <>
         <GlobalStyle />
+        
         <div className={classes.wrapper}>
             <AppBar className={classes.appBar} position='static' color='inherit'>
                 
@@ -84,6 +86,9 @@ const App = ()=>{
             <Options>
                 <Notification />
             </Options>
+
+
+            <Footer />
         </div>
 
         </>
