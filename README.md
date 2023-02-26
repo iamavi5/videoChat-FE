@@ -28,7 +28,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `how to use`
--- Needs to have access of webcam and mic during the process --
+-- Needs to have access of webcam and mic during the process --\
 Step 1- User1 Enters the name and click on "Copy id" button. The user is is copied in the clipboard.(Paste it to share with user you want to cocnnect).
 Step 2- User2 Enters the name.
 Step 3- User1 shares the id with User2. and User 2 will paste it in the calling id field.
